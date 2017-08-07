@@ -13,4 +13,6 @@ As an example usecase take the [atom-linter](https://github.com/steelbrain/linte
 
 Using the wsl-proxy `php.bat` file however, you can just replace the path to the executable with `C:\\Users\\myuser\\path\\to\\wsl-proxy\\php.bat`. Requests are now being routed to the linux version of PHP.
 
+**Pro tip:** If you clone this and add the cloned directory to your windows PATH you will be able to access any of the proxied commands through command prompt (even without the `.bat` extension)
+
 **Note:** This is an experiment currently and I can't guarentee it will work with everything, but please feel free to add files here. Let's turn this into a one-stop shop for wsl-proxy files.
