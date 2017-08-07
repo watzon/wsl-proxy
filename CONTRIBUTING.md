@@ -1,0 +1,1 @@
+This being such a simple project, I'm not going to waste a lot of time telling you how to contribute. If you create a proxy file of your own and want to add it or have any ways this project can be improved please create a PR.
