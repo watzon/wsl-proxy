@@ -13,6 +13,7 @@
 #### Crystal
 - [crystal](./crystal.bat)
 - [shards](./shards.bat)
+- [icr](./icr.bat)
 
 #### Clojure
 - [clojure](./clojure.bat)
