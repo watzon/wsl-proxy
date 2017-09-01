@@ -3,6 +3,7 @@
 #### PHP
 - [php](./php.bat)
 - [composer](./composer.bat)
+- phpcs-composer(./phpcs-composer.bat)
 
 #### Haskell
 - [ghc](./ghc.bat)
