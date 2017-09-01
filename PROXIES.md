@@ -3,8 +3,9 @@
 #### PHP
 - [php](./php.bat)
 - [composer](./composer.bat)
-- phpcs-composer(./phpcs-composer.bat)
-- phpcs.phar(./phpcs.phar.bat)
+- [phpcs-composer](./phpcs-composer.bat)
+- [phpcs.phar](./phpcs.phar.bat)
+- [phpcs](./phpcs.bat)
 
 #### Haskell
 - [ghc](./ghc.bat)
