@@ -1,4 +1,6 @@
 # WSL Proxy Files
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwatzon%2Fwsl-proxy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwatzon%2Fwsl-proxy?ref=badge_shield)
+
 
 WSL (Windows Subsystem for Linux) is an awesome bit of innovation by Microsoft that allows you to run Linux inside of Windows 10 without the need for a Virtual Machine. This has several benefits, the largest of which is the memory that you save by not running a whole secondary OS. Unfortunately it also has it's drawbacks, the biggest of which is a distinct lack of support through editors such as Atom, VSCode, and Sublime Text.
 
@@ -16,3 +18,7 @@ Using the wsl-proxy `php.bat` file however, you can just replace the path to the
 **Pro tip:** If you clone this and add the cloned directory to your windows PATH you will be able to access any of the proxied commands through command prompt (even without the `.bat` extension)
 
 **Note:** This is an experiment currently and I can't guarentee it will work with everything, but please feel free to add files here. Let's turn this into a one-stop shop for wsl-proxy files.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwatzon%2Fwsl-proxy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwatzon%2Fwsl-proxy?ref=badge_large)
