@@ -16,3 +16,7 @@ Using the wsl-proxy `php.bat` file however, you can just replace the path to the
 **Pro tip:** If you clone this and add the cloned directory to your windows PATH you will be able to access any of the proxied commands through command prompt (even without the `.bat` extension)
 
 **Note:** This is an experiment currently and I can't guarentee it will work with everything, but please feel free to add files here. Let's turn this into a one-stop shop for wsl-proxy files.
+
+## Auto-generating proxy files from /usr/bin/
+
+Run the `gen-proxies.cmd` script to automatically generate proxies from all the files contained in the WSL /usr/bin/ folder. A subfolder named `.\autogen` will be created, and all the autogenned proxy files will be placed here.
