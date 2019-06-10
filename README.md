@@ -31,7 +31,7 @@ Same as above, but reads program names from a file.
 Examples:  
 `proxygen gcc g++`  
 `proxygen /usr/bin/foo`  
-`proxygen /usr/bin/*`
+`proxygen /usr/bin/*`  
 `proxygen /usr/bin/* /bin/*`
 
 Program names will be resolved to absolute paths, if they exist. Otherwise, the program name will be used as is.
