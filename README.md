@@ -17,7 +17,7 @@ Using the wsl-proxy `php.bat` file however, you can just replace the path to the
 
 **Note:** This is an experiment currently and I can't guarentee it will work with everything, but please feel free to add files here. Let's turn this into a one-stop shop for wsl-proxy files.
 
-## Auto-generating proxy files from /usr/bin/
+## Auto-generating proxy files
 
 Run the `proxygen.cmd` script to automatically generate proxies. 
 
