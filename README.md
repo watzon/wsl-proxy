@@ -19,7 +19,7 @@ Using the wsl-proxy `php.bat` file however, you can just replace the path to the
 
 ## Auto-generating proxy files
 
-Run the `proxygen.cmd` script to automatically generate proxies. 
+Run the `proxygen.cmd` script to automatically generate proxies. A subfolder named `.\autogen` will be created, and all the autogenned proxy files will be placed here -- add this folder to your Windows PATH if you want access to the proxied commands without typing in a full path.
 
 Usage:
 * (No args): `proxygen`  
@@ -35,5 +35,3 @@ Examples:
 `proxygen /usr/bin/* /bin/*`
 
 Program names will be resolved to absolute paths, if they exist. Otherwise, the program name will be used as is.
-
-A subfolder named `.\autogen` will be created, and all the autogenned proxy files will be placed here. 
