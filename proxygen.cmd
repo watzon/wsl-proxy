@@ -11,6 +11,6 @@ rem
 rem bash.exe -c "%%x %%*" > autogen/%xx.bat
 
 rem So we'll use a bash script instead
-bash -c ./gen-proxies.sh
+bash -c "./proxygen.sh %*"
 
 popd
