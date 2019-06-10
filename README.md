@@ -34,4 +34,4 @@ Examples:
 `proxygen /usr/bin/*`  
 `proxygen /usr/bin/* /bin/*`
 
-Program names will be resolved to absolute paths, if they exist. Otherwise, the program name will be used as is.
+Program names will be resolved to absolute paths. If a program is not found, a warning message will be displayed (the proxy will still be created).

@@ -4,8 +4,13 @@ mkdir -p autogen
 generate_proxy() {
     PROGRAMNAME=$(basename $1)
     FULLPATH=$(which $1)
+    if [ -z "$FULLPATH" ]; then
+      >&2 echo Warning: \"$1\" not found \(creating proxy anyway\)
+    fi 
+
     echo @echo off > autogen/$PROGRAMNAME.bat
     echo bash.exe -c \"${FULLPATH:-$1} %*\" >> autogen/$PROGRAMNAME.bat
+    #>&2 echo Created proxy for \"${FULLPATH:-$1}\" in autogen/$PROGRAMNAME.bat
 }
 
 if [ $# -eq 0 ]; then
