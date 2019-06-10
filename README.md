@@ -34,6 +34,6 @@ Examples:
 `proxygen /usr/bin/*`
 `proxygen /usr/bin/* /bin/*`
 
-Program names will be resolved to absolute paths, if they exist. Otherwise, the program name will be used as is.
+Program names will be resolved to absolute paths. If a program is not found, an error message will be displayed and the corresponding proxy will not be created.
 
 A subfolder named `.\autogen` will be created, and all the autogenned proxy files will be placed here. 
